@@ -35,7 +35,7 @@
         <!-- logo -->
         <a class="navbar-brand" href="#">
           <h1 id="logo">
-            <a href="index.php"><img src="img/TowerBlocks.png" alt="Tower Block By Anoop" /></a>
+            <a href="index.php"><img src="img/Tower Blocks.png" alt="Tower Block By Anoop" /></a>
           </h1>
         </a>
         <!-- /logo -->
