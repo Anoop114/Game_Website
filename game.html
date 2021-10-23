@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/game.css" />
+  <!-- Fontawesome Icon font -->
+  <link rel="stylesheet" href="css/font-awesome.min.css" />
+  <!-- Twitter Bootstrap css -->
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+  <!-- animate -->
+  <link rel="stylesheet" href="css/animate.css" />
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="css/main.css" />
+  <link rel="icon" type="image/png" href="img/favicon.png"/>
+  <title>Tower Block By Anoop</title>
+</head>
+
+<body>
+  <header id="navigation" class="navbar-fixed-top navbar" style="margin-bottom: 100px;">
+    <div class="container">
+      <div class="navbar-header">
+        <!-- responsive nav button -->
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+          <span class="sr-only">Toggle navigation</span>
+          <i class="fa fa-bars fa-2x"></i>
+        </button>
+        <!-- /responsive nav button -->
+
+        <!-- logo -->
+        <a class="navbar-brand" href="#">
+          <h1 id="logo">
+            <a href="index.html"><img src="img/Tower Blocks.png" alt="Tower Block By Anoop" /></a>
+          </h1>
+        </a>
+        <!-- /logo -->
+      </div>
+
+      <!-- main nav -->
+      <nav class="collapse navbar-collapse navbar-right" role="navigation">
+        <ul class="nav navbar-nav">
+          <li class="current"><a href="index.php">Home</a></li>
+          <li><a href="game.html">PLAY</a></li>
+          <li><a href="highscore.html">Your High Score</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <div id="container">
+    <div id="game"></div>
+    <div id="score">50</div>
+    <div id="instructions">
+      Click to place the block
+    </div>
+    <div class="game-over">
+      <h2>Game Over</h2>
+      <p>You did great, you're the best.</p>
+      <p>Click to start again</p>
+    </div>
+    <div class="game-ready">
+      <div id="start-button">Start</div>
+      <div></div>
+    </div>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r83/three.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js"></script>
+  <script src="js/game.js"></script>
+  
+  <script src="js/jquery-1.11.1.min.js"></script>
+  <script src="js/jquery.singlePageNav.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/custom.js"></script>
+</body>
+
+</html>
